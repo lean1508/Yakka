@@ -84,11 +84,12 @@ Design and Developed by: Codelayers
 
 
 body {
-	font: 14px 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif !important;
+	font: 14px;
 	font-weight: normal;
 	font-style: normal;
 	line-height: 23px;
-	color: #727272;
+	color: #ffee0a !important;
 }
 
 /* a link Styles
@@ -119,8 +120,7 @@ a {
  ------------------------------ */
  
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
-	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Roboto Condensed', sans-serif !important;
 	font-weight: normal;
 	color: #272727;
 }
